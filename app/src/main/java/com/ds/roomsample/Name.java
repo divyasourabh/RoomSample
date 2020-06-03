@@ -2,6 +2,7 @@ package com.ds.roomsample;
 
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -13,6 +14,17 @@ public class Name {
     @NonNull
     @ColumnInfo(name="name")
     private String name;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @ColumnInfo(name="id")
+    private int id;
 
     public Name(String name) {
         this.name = name;

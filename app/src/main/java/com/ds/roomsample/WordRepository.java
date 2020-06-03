@@ -6,9 +6,10 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
+
 class WordRepository {
 
-    private WordDAO mWordDao;
+    private NameDAO mWordDao;
     private LiveData<List<Name>> mAllWords;
 
     // Note that in order to unit test the WordRepository, you have to remove the Application
@@ -17,7 +18,7 @@ class WordRepository {
     // https://github.com/googlesamples
     WordRepository(Application application) {
         WordRoomDatabase db = WordRoomDatabase.getDatabase(application);
-        mWordDao = db.wordDAO();
+        mWordDao = db.nameDAO();
         mAllWords = mWordDao.getNames();
     }
 
