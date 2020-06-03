@@ -1,0 +1,93 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+app/build
+app/*/output.json
+app/preprod2
+app/qa
+app/release
+app/beta
+#.idea/workspace.xml - uncomment this and comment/delete .idea if it better suit your needs
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*/*.iml
+*.iws
+*.ipr
+*~
+*.swp
+build/*
+build/intermediates/dex-cache
+CustomBrowser-release/CustomBrowser-release.iml
+PGWrapper-release/PGWrapper-release.iml
+PayU-release/PayU-release.iml
+gamooga-targetact-client-release/gamooga-targetact-client-release.iml
+libraries/facebook/facebook.iml
+libraries/libraries.iml
+tourguide/tourguide.iml
+
+app/src/main/assets/crashlytics-build.properties
+app/src/main/res/values/com_crashlytics_export_strings.xml
+build/intermediates/model_data.bin
+payU/build
+customBrowser/build
+build/intermediates/gradle_project_sync_data.bin
+wibmoSDK/build
+library/build/
+Parse/build/
+invitereferrals/build/
+wibmosdklib/build/
+*/*.hprof
+.gradle/*
+.gradle/2.10
+build/apk/
+build/apk/*
+/local.properties
+magicretry-release/
+tourguide/
+library/build/*
+snackbar-lib/build/*
+/app/nykaa_keystore.jks
